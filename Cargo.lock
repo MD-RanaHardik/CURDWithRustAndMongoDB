@@ -6,8 +6,11 @@ version = 3
 name = "CURDWithMongo"
 version = "0.1.0"
 dependencies = [
+ "bson",
+ "chrono",
  "futures",
  "mongodb",
+ "rand",
  "serde",
  "tokio",
 ]
